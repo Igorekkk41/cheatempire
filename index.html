@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="yandex-verification" content="2dbeb6d39d56de9d" /> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link type="image/x-icon" href="img/logo/icon.ico" rel="shortcut icon">
+    <link rel="stylesheet" href="css/style.css?v=7">
+    <title>CHEAT EMPIRE</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header animate__animated animate__fadeInDown" style="user-select: none;">
+            <div class="header__container">
+                <a href="#"><img src="img/logo/header-logo1.png" alt="header-logo" class="header__logo"></a> 
+                <div class="header__menu menu">
+                    <div class="menu__icon">
+                        <span></span>
+                    </div>
+                    <nav class="menu__body">
+                        <ul class="menu__list">
+                            <li class="menu__link">
+                                <img class="menu__link__before" src="img/logo/catalog.png">
+                                <a class="menu__link__item" id="tl-header-catalog" data-goto=".catalog" href="">Каталог</a>
+                                  
+                            </li>
+                            <li class="menu__link">
+                                <img class="menu__link__before" src="img/logo/tg-png.png">  
+                                <a class="menu__link__item" id="tl-header-telegram" data-goto="" href="https://t.me/+ICFk5DBdFOwzNTUy" target="_blank">Телеграм канал</a>
+                            </li>
+                            <li class="menu__link">
+                                <img class="menu__link__before mdiCOG" src="img/logo/COG.png">  
+                                <a class="menu__link__item widthCOG" id="tl-header-support" data-goto="" href="https://t.me/sand17tg" target="_blank">Тех поддержка</a>
+                            </li>
+                            
+                            <div class="">
+                                <button class="lang-button" data-lang="en">ENG</button>                            
+                                <button class="lang-button" data-lang="ru">RU</button>
+                            </div>
+                            
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="main__page" style="user-select: none;">
+                <!-- <img src="img/background/123123.jpg" alt="background" class="main__page__background"> -->
+                <video src="img/logo/www.mp4" muted loop autoplay="autoplay" class="main__page__background"></video>
+                <img src="img/background/warman.png" alt="main__military" class="main__page__military-img animate__animated animate__fadeInRightBig wow" data-speed="100">
+                <div class="container">
+                    <div class="main__page__content animate__animated animate__fadeInLeft">
+                        <h1><span class="glitch__title" data-text="CHEAT EMPIRE">CHEAT EMPIRE</span><span id="tl-main-choose-the-best"> — выбор лучших</span><span id="tl-main-private" style="color: #9F2D1D;"> приватных</span> <span id="tl-main-cheats">читов</span></h1>
+                        <button id="tl-main-button" class="main__page__content__button menu__link" data-goto=".catalog">Перейти к каталогу товаров</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="why-we">
+                <div class="container">
+                    <h2 id="tl-whyWe-title" class="catalog__content__title animate__animated animate__fadeInLeft wow">Почему именно мы?</h2>
+                    <div class="blur-element1"></div>
+                    <div class="why-we__block">
+
+                        <a href="https://funpay.com/users/4892354/" target="_blank" class="why-we__item animate__animated animate__fadeInBottomLeft wow">
+                            <!-- <img src="img/logo/reviwes5.png" alt="smile"> -->
+                            <div class="why-we__item__reviews">
+                                <i class="mdi mdi-star"></i>
+                                <i class="mdi mdi-star"></i>
+                                <i class="mdi mdi-star"></i>
+                                <i class="mdi mdi-star"></i>
+                                <i class="mdi mdi-star"></i>
+                            </div>
+                            <!-- <h3>400+ положительных отзывов <a href="https://funpay.com/users/4892354/" target="_blank">Funpay: sand1storm</a></h3> -->
+                            <h3 id="tl-why-rewiews">700+ положительных отзывов</h3>
+                        </a>
+                        <a class="why-we__item animate__animated animate__fadeInUp wow">
+                            <!-- <img src="img/logo/dinero.png" alt=dinero""> -->
+                            <i class="mdi mdi-currency-usd"></i>
+                            <h3 id="tl-why-prices">Доступные цены</h3>
+                        </a>
+                        <a href="https://t.me/h404_777" target="_blank" class="why-we__item animate__animated animate__fadeInBottomRight wow">
+                            <!-- <img src="img/logo/sos.png" alt="sos"> -->
+                            <i class="mdi mdi-face-agent"></i>
+                            <!-- <h3>Бесплатная тех-помощь!<br> Просто <a target="_blank" href="https://t.me/sand17tg">напишите</a> нам!</h3> -->
+                            <h3 id="tl-why-support">Бесплатная тех-помощь</h3>
+                        </a>                        
+                    </div>
+                </div>
+            </section>
+
+            <section class="catalog">
+                <div class="catalog__background">
+                    <video src="img/background/3701515361.mp4" muted loop autoplay="autoplay" class="catalog__page__background"></video>
+                </div>
+                <!-- <img src="img/background/1329110.jpeg" alt="background2" class="catalog__background" > -->
+                
+                 <div class="blur-element1"></div>
+                 <div class="blur-element2"></div>
+                <div class="container">
+                    <div class="catalog__content">
+                        <h2 id="tl-catalog-title" class="catalog__content__title animate__animated animate__fadeInLeft wow">Каталог</h2>
+                        <ul class="catalog-bar animate__animated animate__fadeInLeft wow">
+                            <li class="catalog-bar__item" data-tab="tab-eft"><img src="img/game-icons/eft.png" alt="" class="catalog-bar__item__img"> EFT</li>
+                            <li class="catalog-bar__item" data-tab="tab-dayz"><img src="img/game-icons/dayz.png" alt=""class="catalog-bar__item__img">Dayz</li>
+                            <li class="catalog-bar__item" data-tab="tab-rust"><img src="img/game-icons/rust.png" alt=""class="catalog-bar__item__img">Rust</li>
+                            <li class="catalog-bar__item" data-tab="tab-pubg"><img src="img/game-icons/pubg.png" alt=""class="catalog-bar__item__img">PUBG</li>
+                            <li class="catalog-bar__item" data-tab="tab-mw3"><img src="img/game-icons/mw3.png" alt=""class="catalog-bar__item__img">MW3</li>
+                            <li class="catalog-bar__item" data-tab="tab-apex"><img src="img/game-icons/apex.png" alt=""class="catalog-bar__item__img">APEX</li>
+                            <li class="catalog-bar__item" data-tab="tab-bf2042"><img src="img/game-icons/bf-2042.png" alt=""class="catalog-bar__item__img">BF2042</li>
+                            <li class="catalog-bar__item" data-tab="tab-finals"><img src="img/game-icons/the-finals.png" alt=""class="catalog-bar__item__img">The Finals</li>
+                            <li class="catalog-bar__item" data-tab="tab-gta5"><img src="img/game-icons/gta5.png" alt=""class="catalog-bar__item__img">GTA V</li>
+                            <li class="catalog-bar__item" data-tab="tab-ft"><img src="img/game-icons/fortnite.png" alt=""class="catalog-bar__item__img">Fortnite</li>
+                            <li class="catalog-bar__item" data-tab="tab-wf"><img src="img/game-icons/Warface.png" alt=""class="catalog-bar__item__img">Warface</li>
+                            <!-- <li class="catalog-bar__item" data-tab="tab-wt">War Thunder</li> -->
+                            <li class="catalog-bar__item" data-tab="tab-gi"><img src="img/game-icons/genshin.png" alt=""class="catalog-bar__item__img">Genshin Impact</li>
+                            <li class="catalog-bar__item" data-tab="tab-wtl"><img src="img/game-icons/Wtlologo.webp" alt=""class="catalog-bar__item__img">Will To Live</li>
+                            <li class="catalog-bar__item" data-tab="tab-bb"><img src="img/game-icons/bb.png" alt=""class="catalog-bar__item__img">Battle Bit</li>
+                            <li class="catalog-bar__item" data-tab="tab-hwid"><img src="img/game-icons/hwid.png" alt=""class="catalog-bar__item__img"><span id="tl-catalogBAR-HWID">HWID Спуферы</span></li>
+                            <!-- <li class="catalog-bar__item" data-tab="tab-acc"><img src="img/game-icons/acc.png" alt=""class="catalog-bar__item__img">Аккаунты</li> -->
+                        </ul>
+
+                        <div class="catalog-content">
+                            <div class="catalog-content__block hidden" id="tab-eft" >   
+
+                                <a class="catalog-content__block__card" 
+                                    data-purchase1="27493895" data-purchase7="27493896" data-purchase30="27493897"
+                                    data-price1-rub="350" data-price7-rub="1200" data-price30-rub="2200"
+                                    data-status="UNDETECTED" data-video-id="puyCmhasGYZ5Qm7mN1gNhz"
+                                    data-processor-ru="Intel / AMD" data-screens-ru="Полноэкранный, Оконный, Безрамочный"
+                                    data-windows-ru="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2] , Windows 11 [22H2, 23H2]"
+                                    data-security-ru="Без встроенного спуфера" data-description-ru="Чамсики Чамсики Чамсики"
+                                    
+                                    data-processor-eng="Intel / AMD" data-screens-eng="Fullscreen, Windowed, Frameless"
+                                    data-security-eng="Without included spoofer" data-description-eng="yes yes yes yes"
+                                    data-windows-eng="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2] , Windows 11 [22H2, 23H2]"
+                                    data-price1-usd="3.80" data-price7-usd="13" data-price30-usd="24">
+
+                                    
+
+                                    <div class="catalog-content__block__card__picture">
+                                        <img class="card-img" src="img/product-img/CHAMS.jpg" alt="chams" >
+                                        <button class="product-btn">Подробнее</button>
+                                    </div>
+                                    <div class="catalog-content__block__card__title">
+                                        <h3 class="card-title">EFT CHAMS</h3>
+                                    </div>
+                                    <div class="catalog-content__block__card__price">
+                                        <p><span class="tl-product-priceFROM">От: </span><span class="card-price">350₽</span></p>
+                                    </div>
+                                </a>
+
+                                <a class="catalog-content__block__card" 
+                                    data-purchase1="27493895" data-purchase7="27493896" data-purchase30="27493897"
+                                    data-price1-rub="450" data-price7-rub="1800" data-price30-rub="3200"
+                                    data-status="UNDETECTED" data-video-id="74DYqaKUx8MvMnyWxPPf2r"
+                                    data-processor-ru="Intel / AMD" data-screens-ru="Полноэкранный, Оконный, Безрамочный"
+                                    data-windows-ru="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2] , Windows 11 [22H2, 23H2]"
+                                    data-security-ru="Без встроенного спуфера" data-description-ru="Чамсики++ Чамсики++ Чамсики++"
+                                    
+                                    data-processor-eng="Intel / AMD" data-screens-eng="Fullscreen, Windowed, Frameless"
+                                    data-security-eng="Without included spoofer" data-description-eng="Chams++ Chams++ Chams++"
+                                    data-windows-eng="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2] , Windows 11 [22H2, 23H2]"
+                                    data-price1-usd="4.90" data-price7-usd="19.50" data-price30-usd="35">
+
+                                    
+
+                                    <div class="catalog-content__block__card__picture">
+                                        <img class="card-img" src="img/product-img/CHAMS++.jpg" alt="chams++" >
+                                        <button class="product-btn">Подробнее</button>
+                                    </div>
+                                    <div class="catalog-content__block__card__title">
+                                        <h3 class="card-title">EFT CHAMS++</h3>
+                                    </div>
+                                    <div class="catalog-content__block__card__price">
+                                        <p><span class="tl-product-priceFROM">От: </span><span class="card-price">450₽</span></p>
+                                    </div>
+                                </a>
+
+                                <a class="catalog-content__block__card" 
+                                    data-purchase1="27493895" data-purchase7="27493896" data-purchase30="27493897"
+                                    data-price1-rub="500" data-price7-rub="2500" data-price30-rub="3900"
+                                    data-status="UNDETECTED" data-video-id="puyCmhasGYZ5Qm7mN1gNhz"
+                                    data-processor-ru="Intel / AMD" data-screens-ru="Полноэкранный, Оконный, Безрамочный"
+                                    data-windows-ru="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2] , Windows 11 [22H2, 23H2]"
+                                    data-security-ru="Имеет встроенный спуфер" data-description-ru="Ауторити"
+                                    
+                                    data-processor-eng="Intel / AMD" data-screens-eng="Fullscreen, Windowed, Frameless"
+                                    data-security-eng="Spoofer included" data-description-eng="AUTHORITY AUTHORITY"
+                                    data-windows-eng="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2] , Windows 11 [22H2, 23H2]"
+                                    data-price1-usd="5.40" data-price7-usd="27" data-price30-usd="42">
+
+                                    
+
+                                    <div class="catalog-content__block__card__picture">
+                                        <img class="card-img" src="img/product-img/authorityEFT.jpg" alt="authority" >
+                                        <button class="product-btn">Подробнее</button>
+                                    </div>
+                                    <div class="catalog-content__block__card__title">
+                                        <h3 class="card-title">AUTHORITY <span style="color: rgb(14, 93, 211)">+ HWID</h3>
+                                    </div>
+                                    <div class="catalog-content__block__card__price">
+                                        <p><span class="tl-product-priceFROM">От: </span><span class="card-price">500₽</span></p>
+                                    </div>
+                                </a>
+
+                                <a class="catalog-content__block__card" 
+                                    data-purchase1="" data-purchase7="" data-purchase30="27493897"
+                                    data-price1-rub="Нет в наличии" data-price7-rub="Нет в наличии" data-price30-rub="9900"
+                                    data-status="UNDETECTED" data-video-id="puyCmhasGYZ5Qm7mN1gNhz"
+                                    data-processor-ru="Intel / AMD" data-screens-ru="Полноэкранный, Оконный, Безрамочный"
+                                    data-windows-ru="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2] , Windows 11 [22H2, 23H2]"
+                                    data-security-ru="Имеет встроенный спуфер" data-description-ru="СМГ ПРИВАТ"
+                                    
+                                    data-processor-eng="Intel / AMD" data-screens-eng="Fullscreen, Windowed, Frameless"
+                                    data-security-eng="Spoofer included" data-description-eng="SMG PRIVATE"
+                                    data-windows-eng="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2] , Windows 11 [22H2, 23H2]"
+                                    data-price1-usd="Not available" data-price7-usd="Not available" data-price30-usd="110">
+
+                                    
+
+                                    <div class="catalog-content__block__card__picture">
+                                        <img class="card-img" src="img/product-img/smg-private.png" alt="smg" >
+                                        <button class="product-btn">Подробнее</button>
+                                    </div>
+                                    <div class="catalog-content__block__card__title">
+                                        <h3 class="card-title">SMG <span style="color: rgb(14, 93, 211)">+ HWID</h3>
+                                    </div>
+                                    <div class="catalog-content__block__card__price">
+                                        <p><span class="tl-product-priceFROM">От: </span><span class="card-price">9900₽</span></p>
+                                    </div>
+                                </a>
+                            </div> 
+
+                            <div class="catalog-content__block hidden" id="tab-dayz" >  
+                                <a class="catalog-content__block__card" 
+                                    data-purchase1="19233166" data-purchase7="19233140" data-purchase30="19233113"
+                                    data-price1-rub="350" data-price7-rub="1300" data-price30-rub="2500"
+                                    data-status="UNDETECTED" data-video-id="puyCmhasGYZ5Qm7mN1gNhz"
+                                    data-processor-ru="Intel / AMD" data-screens-ru="Полноэкранный, Оконный, Безрамочный"
+                                    data-windows-ru="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2] , Windows 11 [22H2, 23H2]"
+                                    data-security-ru="Спуфер в комплекте" data-description-ru="DAYZ Ауторити. Имеет встроенный спуфер в комплекте."
+                                    
+                                    data-processor-eng="Intel / AMD" data-screens-eng="Fullscreen, Windowed, Frameless"
+                                    data-security-eng="Spoofer included" data-description-eng="DAYZ Authority. HWID Spoofer included."
+                                    data-windows-eng="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2] , Windows 11 [22H2, 23H2]"
+                                    data-price1-usd="3.80" data-price7-usd="14" data-price30-usd="27">
+                                    
+                                    <div class="catalog-content__block__card__picture">
+                                        <img class="card-img" src="img/product-img/authority.jpg" alt="authority" >
+                                        <button class="product-btn">Подробнее</button>
+                                    </div>
+                                    <div class="catalog-content__block__card__title">
+                                        <h3 class="card-title">AUTHORITY <span style="color: rgb(14, 93, 211)">+ HWID</span></h3>
+                                    </div>
+                                    <div class="catalog-content__block__card__price">
+                                        <p><span class="tl-product-priceFROM">От: </span><span class="card-price">350₽</span></p>
+                                    </div>
+                                </a>
+
+                                <a class="catalog-content__block__card" 
+                                    data-purchase1="18574680" data-purchase7="18574654" data-purchase30="18574591"
+                                    data-price1-rub="450" data-price7-rub="1500" data-price30-rub="2500"
+                                    data-status="UNDETECTED" data-video-id="puyCmhasGYZ5Qm7mN1gNhz"
+                                    data-processor-ru="Intel / AMD" data-screens-ru="Полноэкранный, Оконный, Безрамочный"
+                                    data-windows-ru="Windows 64х 10[1903 - 22H2]"
+                                    data-security-ru="Без встроенного спуфера" data-description-ru="Dayz dullwave софт"
+                                    
+                                    data-processor-eng="Intel / AMD" data-screens-eng="Fullscreen, Windowed, Frameless"
+                                    data-security-eng="Without included spoofer" data-description-eng="Dayz Dullwave"
+                                    data-windows-eng="Windows 64х 10[1903 - 22H2]"
+                                    data-price1-usd="4.8" data-price7-usd="16.20" data-price30-usd="27">
+
+                                    <div class="catalog-content__block__card__picture">
+                                        <img class="card-img" src="img/product-img/dayz dull.jpg" alt="dullwave" >
+                                        <button class="product-btn">Подробнее</button>
+                                    </div>
+                                    <div class="catalog-content__block__card__title">
+                                        <h3 class="card-title">DULLWAVE</h3>
+                                    </div>
+                                    <div class="catalog-content__block__card__price">
+                                        <p><span class="tl-product-priceFROM">От: </span><span class="card-price">450₽</span></p>
+                                    </div>
+                                </a>
+
+                        
+                                <a class="catalog-content__block__card" 
+                                data-purchase1="18367134" data-purchase7="18367085" data-purchase30="18367063"
+                                data-price1-rub="590" data-price7-rub="2500" data-price30-rub="4400"
+                                data-status="UNDETECTED" data-video-id="puyCmhasGYZ5Qm7mN1gNhz"
+                                data-processor-ru="Intel / AMD" data-screens-ru="Оконный"
+                                data-windows-ru="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2], Windows 11 [22H2, 23H2]"
+                                data-security-ru="Без встроенного спуфера" data-description-ru="Dayz CRookedArms"
+                                
+                                data-processor-eng="Intel / AMD" data-screens-eng="Fullscreen, Windowed, Frameless"
+                                data-security-eng="Without included spoofer" data-description-eng="Dayz Crooked Arms"
+                                data-windows-eng="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2], Windows 11 [22H2, 23H2]"
+                                data-price1-usd="4.8" data-price7-usd="27" data-price30-usd="47">
+
+                                <div class="catalog-content__block__card__picture">
+                                    <img class="card-img" src="img/product-img/dayz crooked.jpg" alt="crooked" >
+                                    <button class="product-btn">Подробнее</button>
+                                </div>
+                                <div class="catalog-content__block__card__title">
+                                    <h3 class="card-title">CROOKED ARMS</h3>
+                                </div>
+                                <div class="catalog-content__block__card__price">
+                                    <p><span class="tl-product-priceFROM">От: </span><span class="card-price">590₽</span></p>
+                                </div>
+                            </a>                                
+                            </div>
+
+                            <div class="catalog-content__block hidden" id="tab-rust" >
+                                <a class="catalog-content__block__card" 
+                                    data-purchase1="22735678" data-purchase7="22735649" data-purchase30="22735604"
+                                    data-price1-rub="450" data-price7-rub="1300" data-price30-rub="2500"
+                                    data-status="UNDETECTED" data-video-id="i1rmpXWjAjVkZSqST96gMj"
+                                    data-processor-ru="Intel / AMD" data-screens-ru="Полноэкранный, Оконный, Безрамочный"
+                                    data-windows-ru="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2], Windows 11 [22H2, 23H2]"
+                                    data-security-ru="Без встроенного спуфера" data-description-ru="ReloBot Rust"
+                                    
+                                    data-processor-eng="Intel / AMD" data-screens-eng="Fullscreen, Windowed, Frameless"
+                                    data-security-eng="Without included spoofer" data-description-eng="ReloBot RUST"
+                                    data-windows-eng="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2], Windows 11 [21H2, 23H2]"
+                                    data-price1-usd="4.8" data-price7-usd="14" data-price30-usd="27">
+
+                                    <div class="catalog-content__block__card__picture">
+                                        <img class="card-img" src="img/product-img/relo-rust.jpg" alt="relobot" >
+                                        <button class="product-btn">Подробнее</button>
+                                    </div>
+                                    <div class="catalog-content__block__card__title">
+                                        <h3 class="card-title">RELOBOT</h3>
+                                    </div>
+                                    <div class="catalog-content__block__card__price">
+                                        <p><span class="tl-product-priceFROM">От: </span><span class="card-price">450₽</span></p>
+                                    </div>
+                                </a> 
+                                
+                                <a class="catalog-content__block__card" 
+                                    data-purchase1="22735678" data-purchase7="22735649" data-purchase30="22735604"
+                                    data-price1-rub="500" data-price7-rub="2500" data-price30-rub="4500"
+                                    data-status="UNDETECTED" data-video-id="hjfdMsjLHn3K3YR445PvPS"
+                                    data-processor-ru="Intel / AMD" data-screens-ru="Полноэкранный, Оконный, Безрамочный"
+                                    data-windows-ru="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2], Windows 11 [22H2, 23H2]"
+                                    data-security-ru="Без встроенного спуфера" data-description-ru="ASTRAL Rust"
+                                    
+                                    data-processor-eng="Intel / AMD" data-screens-eng="Fullscreen, Windowed, Frameless"
+                                    data-security-eng="Without included spoofer" data-description-eng="ASTRAL Rust"
+                                    data-windows-eng="Windows 10 PRO [2004, 20H2, 21H1, 21H2, 22H2], Windows 11 PRO [22H2, 23H2]"
+                                    data-price1-usd="5.40" data-price7-usd="27" data-price30-usd="48">
+
+                                    <div class="catalog-content__block__card__picture">
+                                        <img class="card-img" src="img/product-img/ASTRAL.jpg" alt="astral" >
+                                        <button class="product-btn">Подробнее</button>
+                                    </div>
+                                    <div class="catalog-content__block__card__title">
+                                        <h3 class="card-title">ASTRAL</h3>
+                                    </div>
+                                    <div class="catalog-content__block__card__price">
+                                        <p><span class="tl-product-priceFROM">От: </span><span class="card-price">500₽</span></p>
+                                    </div>
+                                </a> 
+
+                                <a class="catalog-content__block__card" 
+                                    data-purchase1="22735678" data-purchase7="22735649" data-purchase30="22735604"
+                                    data-price1-rub="1100" data-price7-rub="4900" data-price30-rub="9900"
+                                    data-status="UNDETECTED" data-video-id="puyCmhasGYZ5Qm7mN1gNhz"
+                                    data-processor-ru="Intel / AMD" data-screens-ru="Полноэкранный, Оконный, Безрамочный"
+                                    data-windows-ru="Windows 10 PRO"
+                                    data-security-ru="Без встроенного спуфера" data-description-ru="quantum rust"
+                                    
+                                    data-processor-eng="Intel / AMD" data-screens-eng="Fullscreen, Windowed, Frameless"
+                                    data-security-eng="Without included spoofer" data-description-eng="quantum rust"
+                                    data-windows-eng="Windows 10 PRO"
+                                    data-price1-usd="12" data-price7-usd="52" data-price30-usd="105">
+
+                                    <div class="catalog-content__block__card__picture">
+                                        <img class="card-img" src="img/product-img/quantumRUST.jpg" alt="quantum" >
+                                        <button class="product-btn">Подробнее</button>
+                                    </div>
+                                    <div class="catalog-content__block__card__title">
+                                        <h3 class="card-title">QUANTUM</h3>
+                                    </div>
+                                    <div class="catalog-content__block__card__price">
+                                        <p><span class="tl-product-priceFROM">От: </span><span class="card-price">1100₽</span></p>
+                                    </div>
+                                </a> 
+                        
+                                <a class="catalog-content__block__card" 
+                                    data-purchase1="22735678" data-purchase7="22735649" data-purchase30="22735604"
+                                    data-price1-rub="350" data-price7-rub="1100" data-price30-rub="2100"
+                                    data-status="UNDETECTED" data-video-id="puyCmhasGYZ5Qm7mN1gNhz"
+                                    data-processor-ru="Intel / AMD" data-screens-ru="Полноэкранный, Оконный, Безрамочный"
+                                    data-windows-ru="Windows 10 PRO"
+                                    data-security-ru="Без встроенного спуфера" data-description-ru="mason-lite rust"
+                                    
+                                    data-processor-eng="Intel / AMD" data-screens-eng="Fullscreen, Windowed, Frameless"
+                                    data-security-eng="Without included spoofer" data-description-eng="mason-lite rust"
+                                    data-windows-eng="Windows 10 PRO"
+                                    data-price1-usd="3.80" data-price7-usd="12" data-price30-usd="22">
+
+                                    <div class="catalog-content__block__card__picture">
+                                        <img class="card-img" src="img/product-img/masonLITE.jpg" alt="mason-lite" >
+                                        <button class="product-btn">Подробнее</button>
+                                    </div>
+                                    <div class="catalog-content__block__card__title">
+                                        <h3 class="card-title">MASON LITE</h3>
+                                    </div>
+                                    <div class="catalog-content__block__card__price">
+                                        <p><span class="tl-product-priceFROM">От: </span><span class="card-price">350₽</span></p>
+                                    </div>
+                                </a> 
+                            </div>
+
+                            <div class="catalog-content__block hidden" id="tab-pubg">
+                                <a class="catalog-content__block__card" 
+                                    data-purchase1="21254771" data-purchase7="21254720" data-purchase30="21254670"
+                                    data-price1-rub="420" data-price7-rub="1350" data-price30-rub="2400"
+                                    data-status="UNDETECTED" data-video-id="puyCmhasGYZ5Qm7mN1gNhz"
+                                    data-processor-ru="INTEL 6th Gen+ [с поддержкой AVX1]" data-screens-ru="Полноэкранный, Оконный, Безрамочный"
+                                    data-windows-ru="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2] , Windows 11"
+                                    data-security-ru="Спуфер в комплекте" data-description-ru="FECURITY PUBG. Имеет встроенный спуфер в комплекте."
+                                    
+                                    data-processor-eng="INTEL 6th Gen+ [with support AVX1]" data-screens-eng="Fullscreen, Windowed, Frameless"
+                                    data-security-eng="Spoofer included" data-description-eng="PUBG Fecurity. HWID Spoofer included."
+                                    data-windows-eng="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2] , Windows 11"
+                                    data-price1-usd="4.50" data-price7-usd="14.50" data-price30-usd="25">
+                                    
+                                    <div class="catalog-content__block__card__picture">
+                                        <img class="card-img" src="img/product-img/FECURITYPUBG.png" alt="fecPUBG" >
+                                        <button class="product-btn">Подробнее</button>
+                                    </div>
+                                    <div class="catalog-content__block__card__title">
+                                        <h3 class="card-title">FECURITY <span style="color: rgb(14, 93, 211)">+ HWID</span></h3>
+                                    </div>
+                                    <div class="catalog-content__block__card__price">
+                                        <p><span class="tl-product-priceFROM">От: </span><span class="card-price">420₽</span></p>
+                                    </div>
+                                </a>
+                                
+
+                                <a class="catalog-content__block__card" 
+                                data-purchase1="18367134" data-purchase7="18367085" data-purchase30="18367063"
+                                data-price1-rub="450" data-price7-rub="1700" data-price30-rub="2900"
+                                data-status="UNDETECTED" data-video-id="puyCmhasGYZ5Qm7mN1gNhz"
+                                data-processor-ru="Intel / AMD" data-screens-ru="Оконный"
+                                data-windows-ru="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2], Windows 11 [22H2, 23H2]"
+                                data-security-ru="Без встроенного спуфера" data-description-ru="PUBG CRookedArms"
+                                
+                                data-processor-eng="Intel / AMD" data-screens-eng="Fullscreen, Windowed, Frameless"
+                                data-security-eng="Without included spoofer" data-description-eng="PUBG Crooked Arms"
+                                data-windows-eng="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2], Windows 11 [22H2, 23H2]"
+                                data-price1-usd="4.8" data-price7-usd="18" data-price30-usd="31">
+
+                                <div class="catalog-content__block__card__picture">
+                                    <img class="card-img" src="img/product-img/pubgCA.png" alt="crooked" >
+                                    <button class="product-btn">Подробнее</button>
+                                </div>
+                                <div class="catalog-content__block__card__title">
+                                    <h3 class="card-title">CROOKED ARMS</h3>
+                                </div>
+                                <div class="catalog-content__block__card__price">
+                                    <p><span class="tl-product-priceFROM">От: </span><span class="card-price">450₽</span></p>
+                                </div>
+                            </a> 
+                            </div>
+
+                            <div class="catalog-content__block hidden" id="tab-mw3">
+                                <a class="catalog-content__block__card" 
+                                    data-purchase1="22753866" data-purchase7="22753837" data-purchase30="22753708"
+                                    data-price1-rub="390" data-price7-rub="1300" data-price30-rub="2200"
+                                    data-status="UNDETECTED" data-video-id="puyCmhasGYZ5Qm7mN1gNhz"
+                                    data-processor-ru="INTEL \ AMD" data-screens-ru="Полноэкранный, Оконный, Безрамочный"
+                                    data-windows-ru="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2] , Windows 11"
+                                    data-security-ru="Спуфер в комплекте только для INTEL" data-description-ru="Fecurity MW3 + MW2 + WZ. Имеет встроенный спуфер для процессора INTEL. Присутствует подписка на 3 дня и 90 дней, напишите в поддержку."
+                                    
+                                    data-processor-eng="INTEL \ AMD" data-screens-eng="Fullscreen, Windowed, Frameless"
+                                    data-security-eng="Spoofer included only for INTEL" data-description-eng="Fecurity MW3 + MW2 + WZ. Has a built-in spoofer for INTEL processor. There is a subscription for 3 days and 90 days, write to the support."
+                                    data-windows-eng="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2] , Windows 11"
+                                    data-price1-usd="4.20" data-price7-usd="14" data-price30-usd="24">
+                                    
+                                    <div class="catalog-content__block__card__picture">
+                                        <img class="card-img" src="img/product-img/FECURITY WZ.jpg" alt="fecurity" >
+                                        <button class="product-btn">Подробнее</button>
+                                    </div>
+                                    <div class="catalog-content__block__card__title">
+                                        <h3 class="card-title">FECURITY <span style="color: rgb(14, 93, 211)">+ HWID</span></h3>
+                                    </div>
+                                    <div class="catalog-content__block__card__price">
+                                        <p><span class="tl-product-priceFROM">От: </span><span class="card-price">390₽</span></p>
+                                    </div>
+                                </a>
+                                
+                                <a class="catalog-content__block__card" 
+                                    data-purchase1="25255696" data-purchase7="25255641" data-purchase30="25255485"
+                                    data-price1-rub="350" data-price7-rub="1200" data-price30-rub="2200"
+                                    data-status="UNDETECTED" data-video-id="puyCmhasGYZ5Qm7mN1gNhz"
+                                    data-processor-ru="INTEL \ AMD" data-screens-ru="Полноэкранный, Оконный, Безрамочный"
+                                    data-windows-ru="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2] , Windows 11 [22H2, 23H2]"
+                                    data-security-ru="Отсутствует встроенный спуфер" data-description-ru="MW2 + MW3 + WZ Dullwave"
+                                    
+                                    data-processor-eng="INTEL \ AMD" data-screens-eng="Fullscreen, Windowed, Frameless"
+                                    data-security-eng="Spoofer included only for INTEL" data-description-eng="MW2 + MW3 + WZ Dullwave"
+                                    data-windows-eng="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2] , Windows 11 [22H2, 23H2]"
+                                    data-price1-usd="3.70" data-price7-usd="13" data-price30-usd="23">
+                                    
+                                    <div class="catalog-content__block__card__picture">
+                                        <img class="card-img" src="img/product-img/dullwave wz.jpg" alt="dullwave" >
+                                        <button class="product-btn">Подробнее</button>
+                                    </div>
+                                    <div class="catalog-content__block__card__title">
+                                        <h3 class="card-title">DULLWAVE</h3>
+                                    </div>
+                                    <div class="catalog-content__block__card__price">
+                                        <p><span class="tl-product-priceFROM">От: </span><span class="card-price">350₽</span></p>
+                                    </div>
+                                </a>     
+                            </div>
+
+                            <div class="catalog-content__block hidden" id="tab-apex" >
+                                <a class="catalog-content__block__card" 
+                                    data-purchase1="22753866" data-purchase7="22753837" data-purchase30="22753708"
+                                    data-price1-rub="450" data-price7-rub="1300" data-price30-rub="2500"
+                                    data-status="UNDETECTED" data-video-id="jV6iEoroF5zMVKMm9rJJfT"
+                                    data-processor-ru="Intel / AMD" data-screens-ru="Полноэкранный, Оконный, Безрамочный"
+                                    data-windows-ru="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2], Windows 11 [21H2]"
+                                    data-security-ru="Отсутствует встроенный спуфер" data-description-ru="relobot apex"
+                                    
+                                    data-processor-eng="INTEL \ AMD" data-screens-eng="Fullscreen, Windowed, Frameless"
+                                    data-security-eng="Without included spoofer" data-description-eng="relobot apex"
+                                    data-windows-eng="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2], Windows 11 [21H2]"
+                                    data-price1-usd="4.80" data-price7-usd="14" data-price30-usd="27">
+                                    
+                                    <div class="catalog-content__block__card__picture">
+                                        <img class="card-img" src="img/product-img/relo-apex.jpg" alt="relobot" >
+                                        <button class="product-btn">Подробнее</button>
+                                    </div>
+                                    <div class="catalog-content__block__card__title">
+                                        <h3 class="card-title">RELOBOT</h3>
+                                    </div>
+                                    <div class="catalog-content__block__card__price">
+                                        <p><span class="tl-product-priceFROM">От: </span><span class="card-price">450₽</span></p>
+                                    </div>
+                                </a>
+                                
+                                <a class="catalog-content__block__card" 
+                                    data-purchase1="22561252" data-purchase7="22561204" data-purchase30="22560849"
+                                    data-price1-rub="400" data-price7-rub="1800" data-price30-rub="3200"
+                                    data-status="UNDETECTED" data-video-id="jV6iEoroF5zMVKMm9rJJfT"
+                                    data-processor-ru="INTEL 6th Gen+ [с поддержкой AVX1]" data-screens-ru="Полноэкранный, Оконный, Безрамочный"
+                                    data-windows-ru="Windows 10 [20H2, 21H1, 21H2, 22H2], Windows 11"
+                                    data-security-ru="Встроенный спуфер только для процессора INTEL" data-description-ru="Fecurity APEX. Имеет встроенный спуфер для процессора INTEL"
+                                    
+                                    data-processor-eng="INTEL 6th Gen+ [with support AVX1]" data-screens-eng="Fullscreen, Windowed, Frameless"
+                                    data-security-eng="Spoofer included only for INTEL" data-description-eng="Fecurity APEX. HWID Spoofer included only for INTEL"
+                                    data-windows-eng="Windows 10 [20H2, 21H1, 21H2, 22H2], Windows 11"
+                                    data-price1-usd="4.30" data-price7-usd="1900" data-price30-usd="34">
+                                    
+                                    <div class="catalog-content__block__card__picture">
+                                        <img class="card-img" src="img/product-img/FECURITY APEX.jpg" alt="fecurity" >
+                                        <button class="product-btn">Подробнее</button>
+                                    </div>
+                                    <div class="catalog-content__block__card__title">
+                                        <h3 class="card-title">FECURITY <span style="color: rgb(14, 93, 211)">+ HWID</span></h3>
+                                    </div>
+                                    <div class="catalog-content__block__card__price">
+                                        <p><span class="tl-product-priceFROM">От: </span><span class="card-price">400₽</span></p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="catalog-content__block hidden" id="tab-bf2042">
+                                <a class="catalog-content__block__card" 
+                                    data-purchase1="25594544" data-purchase7="25594515" data-purchase30="25594422"
+                                    data-price1-rub="590" data-price7-rub="3200" data-price30-rub="4800"
+                                    data-status="UNDETECTED" data-video-id="jV6iEoroF5zMVKMm9rJJfT"
+                                    data-processor-ru="Intel и AMD с поддержкой AVX1" data-screens-ru="Полноэкранный, Оконный, Безрамочный"
+                                    data-windows-ru="Windows 10 [20H2, 21H1, 21H2, 22H2], Windows 11"
+                                    data-security-ru="Без встроенного спуфера" data-description-ru="Fecurity BF2042"
+                                    
+                                    data-processor-eng="Intel и AMD с поддержкой AVX1" data-screens-eng="Fullscreen, Windowed, Frameless"
+                                    data-security-eng="Without included spoofer" data-description-eng="Fecurity BF2042"
+                                    data-windows-eng="Windows 10 [20H2, 21H1, 21H2, 22H2], Windows 11"
+                                    data-price1-usd="6.40" data-price7-usd="34" data-price30-usd="52">
+                                    
+                                    <div class="catalog-content__block__card__picture">
+                                        <img class="card-img" src="img/product-img/FECURITY BF2042.jpg" alt="fecurity" >
+                                        <button class="product-btn">Подробнее</button>
+                                    </div>
+                                    <div class="catalog-content__block__card__title">
+                                        <h3 class="card-title">FECURITY</h3>
+                                    </div>
+                                    <div class="catalog-content__block__card__price">
+                                        <p><span class="tl-product-priceFROM">От: </span><span class="card-price">590₽</span></p>
+                                    </div>
+                                </a>
+
+                                <a class="catalog-content__block__card" 
+                                    data-purchase1="18749567" data-purchase7="18749534" data-purchase30="18749508"
+                                    data-price1-rub="590" data-price7-rub="2500" data-price30-rub="3900"
+                                    data-status="UNDETECTED" data-video-id="jV6iEoroF5zMVKMm9rJJfT"
+                                    data-processor-ru="Intel / AMD ❗Возникнут проблемы с AMD FX❗" data-screens-ru="Оконный"
+                                    data-windows-ru="Windows 10 [20H2, 21H1, 21H2, 22H2], Windows 11"
+                                    data-security-ru="Без встроенного спуфера" data-description-ru="CROOKED ARMS BF2042"
+                                    
+                                    data-processor-eng="Intel / AMD ❗problems with AMD FX❗" data-screens-eng="Windowed"
+                                    data-security-eng="Without included spoofer" data-description-eng="CROOKED ARMS BF2042"
+                                    data-windows-eng="Windows 10 [20H2, 21H1, 21H2, 22H2], Windows 11"
+                                    data-price1-usd="6.40" data-price7-usd="27" data-price30-usd="42">
+                                    
+                                    <div class="catalog-content__block__card__picture">
+                                        <img class="card-img" src="img/product-img/CROOKED BF2042.jpg" alt="crooked" >
+                                        <button class="product-btn">Подробнее</button>
+                                    </div>
+                                    <div class="catalog-content__block__card__title">
+                                        <h3 class="card-title">CROOKED ARMS</h3>
+                                    </div>
+                                    <div class="catalog-content__block__card__price">
+                                        <p><span class="tl-product-priceFROM">От: </span><span class="card-price">590₽</span></p>
+                                    </div>
+                                </a>
+                            </div> 
+
+                            <div class="catalog-content__block hidden" id="tab-finals">
+                                <a class="catalog-content__block__card" 
+                                    data-purchase1="25756881" data-purchase7="25756844" data-purchase30="25756780"
+                                    data-price1-rub="490" data-price7-rub="2900" data-price30-rub="6500"
+                                    data-status="UNDETECTED" data-video-id="jV6iEoroF5zMVKMm9rJJfT"
+                                    data-processor-ru="INTEL 6th Gen+ [с поддержкой AVX1]" data-screens-ru="Полноэкранный, Безрамочный, Оконный"
+                                    data-windows-ru="Windows 10 [20H2, 21H1, 21H2, 22H2], Windows 11"
+                                    data-security-ru="Спуфер в комплекте" data-description-ru="Fecurity The Finals. Имеет встроенный спуфер для процессора INTEL"
+                                    
+                                    data-processor-eng="INTEL 6th Gen+ [with support AVX1]" data-screens-eng="Fullscreen, Windowed, Frameless"
+                                    data-security-eng="Spoofer included for INTEL" data-description-eng="Fecurity The Finals. Included HWID Spoofer only for INTEL"
+                                    data-windows-eng="Windows 10 [20H2, 21H1, 21H2, 22H2], Windows 11"
+                                    data-price1-usd="5.30" data-price7-usd="31" data-price30-usd="70">
+                                    
+                                    <div class="catalog-content__block__card__picture">
+                                        <img class="card-img" src="img/product-img/FECURITY FINALS.jpg" alt="fecurity" >
+                                        <button class="product-btn">Подробнее</button>
+                                    </div>
+                                    <div class="catalog-content__block__card__title">
+                                        <h3 class="card-title">FECURITY <span style="color: rgb(14, 93, 211)">+ HWID</span></h3>
+                                    </div>
+                                    <div class="catalog-content__block__card__price">
+                                        <p><span class="tl-product-priceFROM">От: </span><span class="card-price">490₽</span></p>
+                                    </div>
+                                </a>
+
+                                <a class="catalog-content__block__card" 
+                                    data-purchase1="25255090" data-purchase7="25254979" data-purchase30="25254907"
+                                    data-price1-rub="490" data-price7-rub="1900" data-price30-rub="3400"
+                                    data-status="UNDETECTED" data-video-id="jV6iEoroF5zMVKMm9rJJfT"
+                                    data-processor-ru="Intel / AMD" data-screens-ru="Полноэкранный, Безрамочный, Оконный"
+                                    data-windows-ru="Windows: 10 64x [1903, 1909, 2004, 20H2, 21H1, 21H2, 22H2]"
+                                    data-security-ru="Спуфер в комплекте" data-description-ru="Dullwave The Finals."
+                                    
+                                    data-processor-eng="Intel / AMD" data-screens-eng="Fullscreen, Windowed, Frameless"
+                                    data-security-eng="Without included spoofer" data-description-eng="Dullwave The Finals."
+                                    data-windows-eng="Windows: 10 64x [1903, 1909, 2004, 20H2, 21H1, 21H2, 22H2]"
+                                    data-price1-usd="5.30" data-price7-usd="21" data-price30-usd="36">
+                                    
+                                    <div class="catalog-content__block__card__picture">
+                                        <img class="card-img" src="img/product-img/DULLWAVE FINALS.jpg" alt="dullwave" >
+                                        <button class="product-btn">Подробнее</button>
+                                    </div>
+                                    <div class="catalog-content__block__card__title">
+                                        <h3 class="card-title">DULLWAVE</h3>
+                                    </div>
+                                    <div class="catalog-content__block__card__price">
+                                        <p><span class="tl-product-priceFROM">От: </span><span class="card-price">490₽</span></p>
+                                    </div>
+                                </a>
+
+                                <a class="catalog-content__block__card" 
+                                    data-purchase1="24454573" data-purchase7="24454469" data-purchase30="24454442"
+                                    data-price1-rub="490" data-price7-rub="1900" data-price30-rub="3400"
+                                    data-status="UNDETECTED" data-video-id="jV6iEoroF5zMVKMm9rJJfT"
+                                    data-processor-ru="Intel / AMD" data-screens-ru="Оконный"
+                                    data-windows-ru="Windows: 10 [1903, 1909, 2004, 20H2, 21H1, 21H2], Windows 11"
+                                    data-security-ru="Без встроенного спуфера" data-description-ru="CROOKED ARMS The Finals."
+                                    
+                                    data-processor-eng="Intel / AMD" data-screens-eng="Windowed"
+                                    data-security-eng="Without included spoofer" data-description-eng="CROOKED ARMS The Finals."
+                                    data-windows-eng="Windows: 10 [1903, 1909, 2004, 20H2, 21H1, 21H2], Windows 11"
+                                    data-price1-usd="5.30" data-price7-usd="21" data-price30-usd="36">
+                                    
+                                    <div class="catalog-content__block__card__picture">
+                                        <img class="card-img" src="img/product-img/CROOKED FINALS.png" alt="crooked" >
+                                        <button class="product-btn">Подробнее</button>
+                                    </div>
+                                    <div class="catalog-content__block__card__title">
+                                        <h3 class="card-title">CROOKED ARMS</h3>
+                                    </div>
+                                    <div class="catalog-content__block__card__price">
+                                        <p><span class="tl-product-priceFROM">От: </span><span class="card-price">490₽</span></p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="catalog-content__block hidden" id="tab-gta5">
+                                <a class="catalog-content__block__card" 
+                                    data-purchase1="23232322" data-purchase7="19145036" data-purchase30="19145018"
+                                    data-price1-rub="Нет в наличии" data-price7-rub="590" data-price30-rub="1100"
+                                    data-status="UNDETECTED" data-video-id="jV6iEoroF5zMVKMm9rJJfT"
+                                    data-processor-ru="Intel / AMD" data-screens-ru="Полноэкранный, Безрамочный, Оконный"
+                                    data-windows-ru="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2], Windows 11"
+                                    data-security-ru="Без встроенного спуфера" data-description-ru="unicore ragemp + gtaV online."
+                                    
+                                    data-processor-eng="Intel / AMD" data-screens-eng="Windowed"
+                                    data-security-eng="Without included spoofer" data-description-eng="unicore ragemp + gtaV online"
+                                    data-windows-eng="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2] , Windows 11"
+                                    data-price1-usd="Not available" data-price7-usd="7" data-price30-usd="12">
+                                    
+                                    <div class="catalog-content__block__card__picture">
+                                        <img class="card-img" src="img/product-img/gtaV_unicore.jpg" alt="unicore">
+                                        <button class="product-btn">Подробнее</button>
+                                    </div>
+                                    <div class="catalog-content__block__card__title">
+                                        <h3 class="card-title">UNICORE RAGEMP</h3>
+                                    </div>
+                                    <div class="catalog-content__block__card__price">
+                                        <p><span class="tl-product-priceFROM">От: </span><span class="card-price">590₽</span></p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="catalog-content__block hidden" id="tab-ft">
+                                <a class="catalog-content__block__card" 
+                                    data-purchase1="22753866" data-purchase7="22753837" data-purchase30="22753708"
+                                    data-price1-rub="590" data-price7-rub="1900" data-price30-rub="3900"
+                                    data-status="UNDETECTED" data-video-id="jV6iEoroF5zMVKMm9rJJfT"
+                                    data-processor-ru="Intel / AMD" data-screens-ru="Полноэкранный, Безрамочный, Оконный"
+                                    data-windows-ru="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2], Windows 11 [21H2]"
+                                    data-security-ru="Без встроенного спуфера" data-description-ru="relobot fortnite"
+                                    
+                                    data-processor-eng="Intel / AMD" data-screens-eng="Fullscreen, Windowed, Frameless"
+                                    data-security-eng="Without included spoofer" data-description-eng="relobot fortnite"
+                                    data-windows-eng="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2], Windows 11 [21H2]"
+                                    data-price1-usd="6.50" data-price7-usd="21" data-price30-usd="40">
+                                    
+                                    <div class="catalog-content__block__card__picture">
+                                        <img class="card-img" src="img/product-img/relo fort.jpg" alt="relobot" >
+                                        <button class="product-btn">Подробнее</button>
+                                    </div>
+                                    <div class="catalog-content__block__card__title">
+                                        <h3 class="card-title">RELOBOT</h3>
+                                    </div>
+                                    <div class="catalog-content__block__card__price">
+                                        <p><span class="tl-product-priceFROM">От: </span><span class="card-price">590₽</span></p>
+                                    </div>
+                                </a>
+
+                                <a class="catalog-content__block__card" 
+                                    data-purchase1="20244229" data-purchase7="20244159" data-purchase30="20090541"
+                                    data-price1-rub="900" data-price7-rub="4400" data-price30-rub="8800"
+                                    data-status="UNDETECTED" data-video-id="jV6iEoroF5zMVKMm9rJJfT"
+                                    data-processor-ru="Только INTEL [Xeon не поддерживается, возврата не будет]" data-screens-ru="Полноэкранный, Безрамочный, Оконный"
+                                    data-windows-ru="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2] , Windows 11 [22H2, 23H2]"
+                                    data-security-ru="Спуфер в комплекте, для процессора INTEL" data-description-ru="FECURITY fortnite"
+                                    
+                                    data-processor-eng="Только INTEL [Xeon not supported, no refund]" data-screens-eng="Fullscreen, Windowed, Frameless"
+                                    data-security-eng="Included HWID Spoofer only for INTEL" data-description-eng="FECURITY fortnite"
+                                    data-windows-eng="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2] , Windows 11 [22H2, 23H2]"
+                                    data-price1-usd="9.50" data-price7-usd="47" data-price30-usd="95">
+                                    
+                                    <div class="catalog-content__block__card__picture">
+                                        <img class="card-img" src="img/product-img/FECURITY FORT.jpg" alt="fecurity" >
+                                        <button class="product-btn">Подробнее</button>
+                                    </div>
+                                    <div class="catalog-content__block__card__title">
+                                        <h3 class="card-title">FECURITY <span style="color: rgb(14, 93, 211)">+ HWID</span></h3>
+                                    </div>
+                                    <div class="catalog-content__block__card__price">
+                                        <p><span class="tl-product-priceFROM">От: </span><span class="card-price">900₽</span></p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="catalog-content__block hidden" id="tab-wf">
+                                
+                            </div>
+
+                            <div class="catalog-content__block hidden" id="tab-gi">
+                                <a class="catalog-content__block__card" 
+                                    data-purchase1="18232545" data-purchase7="18232419" data-purchase30="18232340"
+                                    data-price1-rub="400" data-price7-rub="1100" data-price30-rub="2150"
+                                    data-status="UNDETECTED" data-video-id="jV6iEoroF5zMVKMm9rJJfT"
+                                    data-processor-ru="INTEL \ AMD" data-screens-ru="Полноэкранный, Безрамочный, Оконный"
+                                    data-windows-ru="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2] , Windows 11 [22H2, 23H2]"
+                                    data-security-ru="Без встроенного спуфера" data-description-ru="UNICORE Genshin Impact"
+                                    
+                                    data-processor-eng="INTEL \ AMD" data-screens-eng="Fullscreen, Windowed, Frameless"
+                                    data-security-eng="Without included spoofer" data-description-eng="UNICORE Genshin Impact"
+                                    data-windows-eng="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2] , Windows 11 [22H2, 23H2]"
+                                    data-price1-usd="4.30" data-price7-usd="12" data-price30-usd="23">
+                                    
+                                    <div class="catalog-content__block__card__picture">
+                                        <img class="card-img" src="img/product-img/UNICORE GI.jpg" alt="unicore">
+                                        <button class="product-btn">Подробнее</button>
+                                    </div>
+                                    <div class="catalog-content__block__card__title">
+                                        <h3 class="card-title">UNICORE</h3>
+                                    </div>
+                                    <div class="catalog-content__block__card__price">
+                                        <p><span class="tl-product-priceFROM">От: </span><span class="card-price">400₽</span></p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="catalog-content__block hidden" id="tab-wtl">
+                                <a class="catalog-content__block__card" 
+                                    data-purchase1="21103906" data-purchase7="21103856" data-purchase30="21103809"
+                                    data-price1-rub="400" data-price7-rub="1100" data-price30-rub="1800"
+                                    data-status="UNDETECTED" data-video-id="jV6iEoroF5zMVKMm9rJJfT"
+                                    data-processor-ru="INTEL \ AMD" data-screens-ru="Полноэкранный, Безрамочный, Оконный"
+                                    data-windows-ru="Windows 10 [1903, 1909, 2004, 20H1, 20H2, 21H1, 21H2, 22H2]"
+                                    data-security-ru="Без встроенного спуфера" data-description-ru="Will to Live DULLWAVE"
+                                    
+                                    data-processor-eng="INTEL \ AMD" data-screens-eng="Fullscreen, Windowed, Frameless"
+                                    data-security-eng="Without included spoofer" data-description-eng="Will to Live DULLWAVE"
+                                    data-windows-eng="Windows 10 [1903, 1909, 2004, 20H1, 20H2, 21H1, 21H2, 22H2]"
+                                    data-price1-usd="4.30" data-price7-usd="12" data-price30-usd="20">
+                                    
+                                    <div class="catalog-content__block__card__picture">
+                                        <img class="card-img" src="img/product-img/dullwave_wtl.jpg" alt="dullwave" >
+                                        <button class="product-btn">Подробнее</button>
+                                    </div>
+                                    <div class="catalog-content__block__card__title">
+                                        <h3 class="card-title">DULLWAVE</h3>
+                                    </div>
+                                    <div class="catalog-content__block__card__price">
+                                        <p><span class="tl-product-priceFROM">От: </span><span class="card-price">400₽</span></p>
+                                    </div>
+                                </a>
+                                
+                                <a class="catalog-content__block__card" 
+                                    data-purchase1="28020664" data-purchase7="28020598" data-purchase30="28020567"
+                                    data-price1-rub="350" data-price7-rub="1100" data-price30-rub="2600"
+                                    data-status="UNDETECTED" data-video-id="jV6iEoroF5zMVKMm9rJJfT"
+                                    data-processor-ru="INTEL \ AMD" data-screens-ru="Полноэкранный, Безрамочный, Оконный"
+                                    data-windows-ru="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2], Windows 11 [Корпоративная Windows не поддерживается]"
+                                    data-security-ru="Без встроенного спуфера" data-description-ru="SoftHub Will To Live. Присутствует подписка на 3 дня, напишите в поддержку."
+                                    
+                                    data-processor-eng="INTEL \ AMD" data-screens-eng="Fullscreen, Windowed, Frameless"
+                                    data-security-eng="Without included spoofer" data-description-eng="SoftHub Will To Live. There is a subscription for 3 days, write to support."
+                                    data-windows-eng="Windows 10 [2004, 20H2, 21H1, 21H2, 22H2], Windows 11 [Corporate Windows not supported]"
+                                    data-price1-usd="3.70" data-price7-usd="12" data-price30-usd="28">
+                                    
+                                    <div class="catalog-content__block__card__picture">
+                                        <img class="card-img" src="img/product-img/SOFTHUB WTL.jpg" alt="softhub" >
+                                        <button class="product-btn">Подробнее</button>
+                                    </div>
+                                    <div class="catalog-content__block__card__title">
+                                        <h3 class="card-title">SOFTHUB</h3>
+                                    </div>
+                                    <div class="catalog-content__block__card__price">
+                                        <p><span class="tl-product-priceFROM">От: </span><span class="card-price">350₽</span></p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="catalog-content__block hidden" id="tab-bb">
+                                <a class="catalog-content__block__card" 
+                                    data-purchase1="27506044" data-purchase7="27506017" data-purchase30="27506000"
+                                    data-price1-rub="600" data-price7-rub="2400" data-price30-rub="4300"
+                                    data-status="UNDETECTED" data-video-id="jV6iEoroF5zMVKMm9rJJfT"
+                                    data-processor-ru="Intel и AMD c поддержкой AVX1" data-screens-ru="Полноэкранный, Безрамочный, Оконный"
+                                    data-windows-ru="Windows 10 [20H2, 21H1, 21H2, 22H2], Windows 11"
+                                    data-security-ru="Спуфер в комплекте для процессоров INTEL" data-description-ru="BattleBit Fecurity. Имеет встроенный спуфер для процессора INTEL."
+                                    
+                                    data-processor-eng="Intel и AMD with support AVX1" data-screens-eng="Fullscreen, Windowed, Frameless"
+                                    data-security-eng="Spoofer included for INTEL" data-description-eng="BattleBit Fecurity. Included HWID Spoofer only for INTEL."
+                                    data-windows-eng="Windows 10 [20H2, 21H1, 21H2, 22H2], Windows 11"
+                                    data-price1-usd="6.50" data-price7-usd="26" data-price30-usd="46">
+                                    
+                                    <div class="catalog-content__block__card__picture">
+                                        <img class="card-img" src="img/product-img/FRCURITY BB.jpg" alt="fecurity" >
+                                        <button class="product-btn">Подробнее</button>
+                                    </div>
+                                    <div class="catalog-content__block__card__title">
+                                        <h3 class="card-title">FECURITY <span style="color: rgb(14, 93, 211)">+ HWID</span></h3>
+                                    </div>
+                                    <div class="catalog-content__block__card__price">
+                                        <p><span class="tl-product-priceFROM">От: </span><span class="card-price">600₽</span></p>
+                                    </div>
+                                </a>
+                            </div>
+                       
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <!-- <p>Designed by <a href="https://t.me/sand17tg" target="_blank">sand1</a></p> -->
+        </footer>
+    </div>
+
+    <script src="js/translate.js"></script>
+    <script src="js/combined.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+
+    <!-- Yandex.Metrika counter -->
+    <!-- <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    
+        ym(95450216, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/95450216" style="position:absolute; left:-9999px;" alt="" /></div></noscript> -->
+ <!-- /Yandex.Metrika counter -->
+
+    <script src="js/script.js"></script>
+</body>
+</html>
