@@ -718,7 +718,6 @@ body._lock {
   background-color: #B25805;
   bottom: 0;
   right: 300px;
-  filter: blur(200px);
 }
 @media (max-width: 768px) {
   .blur-element2 {
@@ -817,7 +816,7 @@ body._lock {
   width: 100%;
   height: 100vh;
   z-index: -1;
-  filter: brightness(0.6) blur(2px);
+  filter: brightness(0.6);
   transform: scale(1.1);
   -o-object-fit: cover;
      object-fit: cover;
@@ -860,8 +859,6 @@ body._lock {
   box-shadow: 15px 15px 200px rgba(178, 89, 5, 0.7254901961);
   height: -moz-fit-content;
   height: fit-content;
-  -webkit-backdrop-filter: blur(7px);
-          backdrop-filter: blur(7px);
   border-radius: 25px;
   animation: shadow_pulsation 4s linear infinite;
 }
